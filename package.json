@@ -1,0 +1,27 @@
+{
+  "name": "tournoi_du_phoque_back",
+  "version": "1.0.0",
+  "description": "site dédié au tournoi du phoque du serveur discord \"Dernier discord avant la fin du monde\"",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "node-fetch": "^3.2.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "prettier": "2.5.1",
+    "prettier-eslint": "^13.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Anouchka Maurer",
+  "license": "ISC"
+}
